@@ -6,14 +6,13 @@
 
 You need to download and install RabbitMQ from [Here](https://www.rabbitmq.com/#getstarted)
 
-For mac once the installtion is done you need to start the RabbitMQ server using the following command 
+For mac once the installation is done, you need to start the RabbitMQ server using the following command 
 
 ```
 brew services start rabbitmq
 ```
 
-Once started you should see the following message in your console 
-
+If you don't get any error and if you see the following message, Congratulations the RabbitMQ server was started successfully
 ```
 ==> Successfully started `rabbitmq` (label: homebrew.mxcl.rabbitmq)
 ```
@@ -52,7 +51,6 @@ build-error: 0 (30 days)
 You can access the Management console at http://localhost:15672 (notice the port number in the above output)
 The credentials by default are username: guest, Password: guest
 
-
 ### Running the Program
 
 If your server has started successfully You can now run the node js code. Before you run in you should run npm install
@@ -85,4 +83,4 @@ And you should see the following output to the console
 Message Received from Publisher:  This message is sent from Publisher
 ```
 
-If you see the following output congratulations you have successfully ran your first RabbitMQ program
+If you see the following output Congratulations you have successfully ran your first RabbitMQ program
