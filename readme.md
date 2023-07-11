@@ -68,7 +68,7 @@ To publish the message you need to run
 node publisher.js
 ```
 
-Note: You can run multiple times and the program will just send the messages to the queue and is stored at the until the
+Note: You can run multiple times and the program will just send the messages to the queue and is stored at the server until the
 subscriber is not executed 
 
 To View or Subscribe to the message  run 
