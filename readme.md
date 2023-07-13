@@ -83,4 +83,4 @@ And you should see the following output to the console
 Message Received from Publisher:  This message is sent from Publisher
 ```
 
-If you see the following output Congratulations you have successfully ran your first RabbitMQ program
+If you see the above output **Congratulations** you have successfully ran your first RabbitMQ program
